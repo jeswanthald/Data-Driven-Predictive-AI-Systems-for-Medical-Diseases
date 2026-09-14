@@ -88,3 +88,41 @@ Random Forest              |
                 |
                 v
           Doctor Feedback
+
+## 📸 Screenshots
+
+### 🩺 Disease Deficiency Detection
+
+![Disease Deficiency Detection](Screenshots/Disease%20Deficiency%20Detection.png)
+
+### 😊 Emoji Feedback
+
+![Emoji Feedback](Screenshots/Emoji%20Feedback.png)
+
+### 📥 Inbox Interface – Desktop Application
+
+![Inbox Interface](Screenshots/Inbox%20Interface%20%28Desktop%20Application%29.png)
+
+### 🧬 Predict Vitamin Page
+
+![Predict Vitamin](Screenshots/Predict%20Vitamin%20page.png)
+
+### 💻 Reply Interface – Desktop Application
+
+![Reply Interface](Screenshots/Reply%20Interface%20%28Desktop%20Application%29.png)
+
+### 🔬 Vitamin Detection Result
+
+![Vitamin Detection Result](Screenshots/Result%20Vitamin.png)
+
+### 📊 Sequence Diagram
+
+![Sequence Diagram](Screenshots/Sequence%20Diagram.png)
+
+### 💬 Web Chat Interface
+
+![Web Chat Interface](Screenshots/Web%20Chat%20Interface.png)
+
+### 🔄 Workflow
+
+![Workflow](Screenshots/WorkFlow.png)
