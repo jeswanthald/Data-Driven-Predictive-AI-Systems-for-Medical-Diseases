@@ -1,0 +1,82 @@
+{% extends "disease_page.html" %}
+{% block page %}
+<br><br><br>
+<div id="disease_page">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+                <h3>Vitamin Deficiency</h3>
+                <h4>Overview</h4>
+                <p>
+                    Vitamin deficiency occurs when your body doesn't get enough of a certain vitamin, leading to health problems. 
+                    Deficiencies can be caused by poor diet, absorption issues, or medical conditions. Common deficiencies include 
+                    Vitamin D, B12, and Iron. Symptoms vary depending on the vitamin lacking, but often include fatigue, weakness, 
+                    and skin or vision issues.
+
+                    Identifying the type of deficiency early and correcting it through diet or supplements can prevent long-term 
+                    complications and improve overall well-being.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+                <img class="ill_image" src="./static/images/disease_img/vitamin.jpeg">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+                <h4>Symptoms</h4>
+                <p>Common symptoms of vitamin deficiency include:</p>
+                <ul>
+                    <li>Fatigue and weakness</li>
+                    <li>Pale or yellowish skin</li>
+                    <li>Muscle weakness</li>
+                    <li>Mood changes or irritability</li>
+                    <li>Hair loss</li>
+                    <li>Vision problems</li>
+                    <li>Numbness or tingling in hands and feet</li>
+                    <li>Slow wound healing</li>
+                    <li>Cracked lips or mouth ulcers</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+                <h3>Model</h3>
+                <p>To make the diagnosis you need to upload a clear photo of the affected area.</p>
+            </div>
+
+            <div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+                <div class="flex-wrapper">
+                    <div class="single-chart">
+                        <svg viewBox="0 0 36 36" class="circular-chart green">
+                            <path class="circle-bg"
+                                d="M18 2.0845
+                                   a 15.9155 15.9155 0 0 1 0 31.831
+                                   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <path class="circle"
+                                stroke-dasharray="93, 100"
+                                d="M18 2.0845
+                                   a 15.9155 15.9155 0 0 1 0 31.831
+                                   a 15.9155 15.9155 0 0 1 0 -31.831" />
+                            <text x="18" y="20.35" class="percentage">92%</text>
+                        </svg>
+                        <h4 style="text-align: center;">Accuracy</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="col-md-4 col-md-offset-4 text-center">
+        <form action="{{ url_for('vitamin.index') }}" method="get">
+            <button type="submit" class="btn btn-success">Predict</button>
+        </form>
+    </div>
+    <br><br><br><br>
+</div>
+{% endblock %}
